@@ -1,0 +1,47 @@
+body {
+    background-color: darkgray;
+    display: block;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#encabezado{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+#principal {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#header {
+    height: 70px;
+}
+
+#titulo_foto {
+    font-size: large;
+    display: inline-block;
+    padding-top: 25px;
+    margin-left: 10px;
+}
+
+#fecha {
+    float: right;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+
+#foto_body img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#footer {
+    padding: 10px;
+    font-size: large
+}
